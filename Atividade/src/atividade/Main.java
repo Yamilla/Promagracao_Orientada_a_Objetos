@@ -13,11 +13,15 @@ public class Main {
         whileSistema:
 
         while (true) {
-            System.out.println("Informe a opção que deseja realizar:");
+            System.out.println("----------Informe a opção que deseja realizar:---------");
             System.out.println("[1] Casdastrar funcionario");
             System.out.println("[2] Listar funionario");
             System.out.println("[3] Delatar funcionaario");
-            System.out.println("[4] Finalizar o sistema");
+            System.out.println("[4] Cadastrar Setor");
+            System.out.println("[5] Listar setor");
+            System.out.println("[6] Finalizar o sistema");
+            System.out.println("-------------------------------------------------------");
+            System.out.println();
             opcao = ler.nextInt();
 
             switch (opcao) {
@@ -31,6 +35,12 @@ public class Main {
                     cadastro.deletarFuncionario();
                     break;
                 case 4:
+                    cadastro.cadastrarSetor();
+                    break;
+                case 5:
+                    cadastro.listarSetor();
+                    break;
+                case 6:
                     break whileSistema;
             }
 
