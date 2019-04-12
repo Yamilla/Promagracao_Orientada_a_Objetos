@@ -16,7 +16,7 @@ public class Main {
             System.out.println("----------Informe a opção que deseja realizar:---------");
             System.out.println("[1] Casdastrar funcionario");
             System.out.println("[2] Listar funionario");
-            System.out.println("[3] Delatar funcionaario");
+            System.out.println("[3] Deletar funcionario");
             System.out.println("[4] Cadastrar Setor");
             System.out.println("[5] Listar setor");
             System.out.println("[6] Deletar setor");
@@ -47,9 +47,6 @@ public class Main {
                 case 7:
                     break whileSistema;
             }
-
         }
-
     }
-
 }
